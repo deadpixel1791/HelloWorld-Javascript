@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <body>
+        <script>
+            "use strict";
+
+            //set user to Becky
+            let userName = "Becky";
+            
+            //the function changes the user to Nathan
+            function changeUser(){
+                userName = "Nathan";
+            }
+            
+            function addJack(){
+                userName = "Jack";
+            }
+            //this will show Becky because we have not called the function yet
+            alert(userName);
+    
+            //call the function
+            changeUser();
+            
+            //now it will show Nathan because we called the function
+            alert(userName);
+
+            //call second function
+            addJack();
+
+            //now it will say message from second funtion
+            alert(userName);
+        </script>
+    </body>
+</html>
