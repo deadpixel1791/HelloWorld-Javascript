@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <body>
+        <script>
+            "use strict";
+            
+            //a function that adds two parameters and then returns the value
+            //has defualt values for the parameters
+            function addSomeStuff(firstNumber = 3, secondNumber = 4){
+                return firstNumber + secondNumber;
+            }
+
+            //calls the function and prints the returned value
+            let newNumber = addSomeStuff(1, 2);
+            alert(newNumber);
+
+            //calls the function but just uses the defualt values
+            let anotherNumber = addSomeStuff();
+            alert(anotherNumber);
+        </script>
+    </body>
+</html>
